@@ -17,28 +17,31 @@ class _SharePageState extends State<SharePage> {
     // Accessing MediaQuery for responsive layout
     // Calculate the height and width of the screen.
     var deviceMedia = MediaQuery.of(context);
-    final double screenHeight = deviceMedia.size.height - deviceMedia.padding.top - deviceMedia.padding.bottom;
-    final double screenWidth = deviceMedia.size.width - deviceMedia.padding.left - deviceMedia.padding.right;
+    final double screenHeight = deviceMedia.size.height -
+        deviceMedia.padding.top -
+        deviceMedia.padding.bottom;
+    final double screenWidth = deviceMedia.size.width -
+        deviceMedia.padding.left -
+        deviceMedia.padding.right;
 
     return SafeArea(
       child: Scaffold(
-        body: SizedBox(
-          child: ElevatedButton(
-            onPressed: (){
+          body: SizedBox(
+        child: ElevatedButton(
+            onPressed: () {
               showModalBottomSheet(
-                context: context, 
+                context: context,
                 builder: (context) {
                   return Column(
                     children: [
                       Text("Hello"),
                     ],
                   );
-                  
-                },);
-            }, 
-            child: Text('Clicked!')),
-        )
-      ),
+                },
+              );
+            },
+            child: Text('Clicked for bottmosheet!')),
+      )),
     );
   }
 }
