@@ -34,7 +34,8 @@ const signupPageMobileTextFormFieldHint = '1234567890';
 const signupPageUserNameTextFormFieldHint = 'User Name';
 const signupPagePasswordTextFormFieldHint = 'Pass@123';
 const signupPageElevatedButtonText = 'Sign Up';
-const signupPagePolicyText = 'By signing up, you agree to our terms, data policy, and cookies policy.';
+const signupPagePolicyText =
+    'By signing up, you agree to our terms, data policy, and cookies policy.';
 const signupPageAlreadyHaveAnAccountNormalText = 'Already have an account? ';
 const signupPageLoginInkWellText = 'Log In';
 
@@ -42,8 +43,10 @@ const signupPageLoginInkWellText = 'Log In';
 
 const forgotPageForgotImagePath = imagesFolderRootPath + 'forgot.png';
 const forgotPageTroubleLoggingInHeaderText = 'Trouble Logging In?';
-const forgotPageTroubleLoggingInSubheaderText = 'Provide the mail below and reset the password.';
-const forgotPageTroubleLoggingInSubheaderTextForOtp = 'We have sent a code on your mail “entered mail”. Verify it and reset the password.';
+const forgotPageTroubleLoggingInSubheaderText =
+    'Provide the mail below and reset the password.';
+const forgotPageTroubleLoggingInSubheaderTextForOtp =
+    'We have sent a code on your mail “entered mail”. Verify it and reset the password.';
 const forgotPageMailTextFormFieldLable = 'Enter mail';
 const forgotPageMailTextFormFieldHint = 'example@xyz.com';
 const forgotPageElevatedButtonText = 'Reset Password';
@@ -69,7 +72,8 @@ const resetPageLoginInkWellText = 'Log In';
 // Create post Page
 const creatingPostImagePath = imagesFolderRootPath + 'creating_post.png';
 const fileUploadPathOnFirebaseStorage = 'Posts/';
-const creatingPostMessage = "Sit back and relax! We are creating post for you...";
+const creatingPostMessage =
+    "Sit back and relax! We are creating post for you...";
 
 // TextFormField Validator return strings
 
@@ -83,7 +87,8 @@ const validMobileMessage = 'Mobile';
 
 const emptyUserNameErrorMessage = 'User Name can\'t be empty.';
 const invalidUserNameErrorMessage = 'User name can\'t contain space.';
-const invalidUserNameSizeErrorMessage = 'Username must be between 4 to 12 characters long ';
+const invalidUserNameSizeErrorMessage =
+    'Username must be between 4 to 12 characters long ';
 const validUserNameMessage = 'User Name';
 
 const emptyPasswordErrorMessage = 'Password can\'t be empty.';
@@ -113,7 +118,7 @@ const sendiconText = 'Send';
 const fname = 'Fname';
 const lname = 'Lname';
 
-// Profile page 
+// Profile page
 const profilePageAddFriendImagePath = imagesFolderRootPath + 'addfriend.png';
 const profilePageSettingImagePath = imagesFolderRootPath + 'setting.png';
 const profilePageUserName = 'UserName';
@@ -127,11 +132,13 @@ const profilePageFollowingsText = 'Followings';
 // Create new Post Page
 const createNewPostAbortSelectionImage = imagesFolderRootPath + 'cancel.png';
 const createNewPostCameraImage = imagesFolderRootPath + 'camera.png';
-const createNewPostForwardArrowImage = imagesFolderRootPath + 'forwardarrow.png';
-const createNewPostMultipleSelectImage = imagesFolderRootPath + 'multipleselect.png';
+const createNewPostForwardArrowImage =
+    imagesFolderRootPath + 'forwardarrow.png';
+const createNewPostMultipleSelectImage =
+    imagesFolderRootPath + 'multipleselect.png';
 const createNewPostTitleText = 'New Post';
 
-// Chatting page 
+// Chatting page
 const chattingPageHeading = 'Messages';
 const chattingPageNewUserAddIconButton = 'Add New';
 const chattingPageSearchButtonHintText = 'Search...';
@@ -139,7 +146,7 @@ const chattingPageSearchButtonHintText = 'Search...';
 // Snackbar text
 const snackbarInvalidUsernameOrPassword = 'Invalid email or password!';
 const snackbarRegistrationFailed = 'Registration failed!';
-const forgotPasswordErrorMessage= 'You are not registered on Alpha';
+const forgotPasswordErrorMessage = 'You are not registered on Alpha';
 
 // Bottomsheet options text
 const settingBottomSheetText = 'Setting';
@@ -147,6 +154,26 @@ const privacyBottomSheetText = 'Privacy';
 const cameraBottomSheetText = 'Camera';
 const galleryBottomSheetText = 'Gallery';
 
+// Setting and Privacy
+const settingAndPrivacyHedingText = "settings and privacy";
+const search = "Search";
+const yourAccount = 'Your Account';
+const account = "Account";
+const accountSubtitle = "Password, Security, Personal details, ads";
+const howYouUseInstagram = "How you use Instagram";
+const notification = "Notification";
+const timeSpent = "Time Spent";
+const whoCanSeeYourContent = "Who can see your content";
+const accountPrivacy = "Account Privacy";
+const closeFriends = "Close Friends";
+const blocked = "Blocked";
+const howOthersCanInteractWithYou = " How others can interact with you ";
+const messagesAndStoryReply = "Messages And Story Reply";
+const comments = " Comments";
+const moveInfoAndSupport = "Move Info and supports";
+const accountStatus = "Account Status";
+const about = "About";
+const logoutUsername = "Log Out Username";
 
 // Backend api request urls
 
