@@ -1,10 +1,10 @@
-import 'package:flutter_screenutil/flutter_screenutil.dart';
+// import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:alpha_devayani/constants/app_design.dart' as app_design;
 
 var app_design_width = app_design.designWidth;
 
-final double fullyExpendedWidth = 1.sw;
-final double halfExpandedWidth = 0.5.sw;
+final double fullyExpendedWidth = 1;
+final double halfExpandedWidth = 0.5;
 final double width1 = 1 / app_design_width;
 final double width2 = 2 / app_design_width;
 final double width10 = 10 / app_design_width;
