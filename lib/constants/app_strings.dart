@@ -175,6 +175,20 @@ const accountStatus = "Account Status";
 const about = "About";
 const logoutUsername = "Log Out Username";
 
+//Notification Page
+const followRequest = "Follow Requests";
+const approveOrIgnoreRequest = "Approve Or Ignore Requests";
+const nneew = "New";
+const followw = "Follow";
+const follwing = "Following";
+const username = "Username ";
+const requeStedtoFollow = " requested to follow you";
+const startedFollowingYou = " started following you";
+const likedYourPost = " liked your post";
+const yesterday = "Yesterday";
+const commentedOnYourPost = " commented on your post";
+const last7Days = "Last 7 Days";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';

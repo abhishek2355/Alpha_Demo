@@ -66,4 +66,5 @@ final double height715 = 715 / app_design_height;
 final double height818 = 818 / app_design_height;
 final double height822 = 822 / app_design_height;
 final double height878 = 878 / app_design_height;
+final double height890 = 890 / app_design_height;
 final double height926 = 926 / app_design_height;
