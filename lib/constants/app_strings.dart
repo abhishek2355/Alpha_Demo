@@ -189,6 +189,21 @@ const yesterday = "Yesterday";
 const commentedOnYourPost = " commented on your post";
 const last7Days = "Last 7 Days";
 
+//singlePost Image
+//Username bring it from notification page
+const like = "Like";
+const comment = "Comment";
+const repost = "Repost";
+const send = "Send";
+const reaction = "Reaction";
+// const comments = "Comments";
+const user1 = "User 1";
+const time = "Time";
+const heyNicePicture = "Hey, Nice picture";
+const likeReply = "Like | Reply";
+const user2 = "User 2";
+const hlloThankYou = "Hllo Thank you";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
