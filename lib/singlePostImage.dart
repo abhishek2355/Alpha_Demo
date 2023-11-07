@@ -65,7 +65,9 @@ class SinglePostImage extends StatelessWidget {
             height: screenHeight * app_heights.height20,
           ),
           Padding(
-            padding: EdgeInsets.all(screenHeight * app_heights.height10),
+            padding: EdgeInsets.symmetric(
+                horizontal: screenWidth * app_widths.width10,
+                vertical: screenHeight * app_heights.height10),
             child: Text(
               app_strings.reaction,
               style: TextStyle(
@@ -113,7 +115,9 @@ class SinglePostImage extends StatelessWidget {
             height: screenHeight * app_heights.height10,
           ),
           Padding(
-            padding: EdgeInsets.all(screenHeight * app_heights.height10),
+            padding: EdgeInsets.symmetric(
+                horizontal: screenWidth * app_widths.width10,
+                vertical: screenHeight * app_heights.height10),
             child: Text(
               app_strings.comments,
               style: TextStyle(
@@ -127,7 +131,9 @@ class SinglePostImage extends StatelessWidget {
           Row(
             children: [
               Padding(
-                padding: EdgeInsets.all(screenHeight * app_heights.height10),
+                padding: EdgeInsets.symmetric(
+                    horizontal: screenWidth * app_widths.width10,
+                    vertical: screenHeight * app_heights.height10),
                 child: Icon(Icons.circle,
                     size: screenHeight * app_heights.height60),
               ),
@@ -140,8 +146,9 @@ class SinglePostImage extends StatelessWidget {
                     color: Colors.grey.shade200,
                   ),
                   child: Padding(
-                    padding:
-                        EdgeInsets.all(screenHeight * app_heights.height10),
+                    padding: EdgeInsets.symmetric(
+                        horizontal: screenWidth * app_widths.width10,
+                        vertical: screenHeight * app_heights.height10),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
@@ -178,18 +185,20 @@ class SinglePostImage extends StatelessWidget {
             ],
           ),
           Padding(
-            padding: EdgeInsets.only(left: screenHeight * app_heights.height80),
+            padding: EdgeInsets.only(left: screenWidth * app_widths.width68),
             child: Text(
               app_strings.likeReply,
               style: TextStyle(fontSize: screenHeight * app_heights.height20),
             ),
           ),
           Padding(
-            padding: EdgeInsets.only(left: screenHeight * app_heights.height80),
+            padding: EdgeInsets.only(left: screenWidth * app_widths.width65),
             child: Row(
               children: [
                 Padding(
-                  padding: EdgeInsets.all(screenHeight * app_heights.height10),
+                  padding: EdgeInsets.symmetric(
+                      horizontal: screenWidth * app_widths.width10,
+                      vertical: screenHeight * app_heights.height10),
                   child: Icon(Icons.circle,
                       size: screenHeight * app_heights.height60),
                 ),
@@ -202,8 +211,9 @@ class SinglePostImage extends StatelessWidget {
                       color: Colors.grey.shade200,
                     ),
                     child: Padding(
-                      padding:
-                          EdgeInsets.all(screenHeight * app_heights.height10),
+                      padding: EdgeInsets.symmetric(
+                          horizontal: screenWidth * app_widths.width10,
+                          vertical: screenHeight * app_heights.height10),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
