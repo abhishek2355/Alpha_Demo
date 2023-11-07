@@ -190,13 +190,12 @@ const commentedOnYourPost = " commented on your post";
 const last7Days = "Last 7 Days";
 
 //singlePost Image
-//Username bring it from notification page
+
 const like = "Like";
 const comment = "Comment";
 const repost = "Repost";
 const send = "Send";
 const reaction = "Reaction";
-// const comments = "Comments";
 const user1 = "User 1";
 const time = "Time";
 const heyNicePicture = "Hey, Nice picture";

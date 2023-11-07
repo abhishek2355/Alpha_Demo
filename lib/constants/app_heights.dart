@@ -25,6 +25,7 @@ final double height28 = 28 / app_design_height;
 final double height30 = 30 / app_design_height;
 final double height31 = 31 / app_design_height;
 final double height32 = 32 / app_design_height;
+final double height35 = 35 / app_design_height;
 final double height38 = 38 / app_design_height;
 final double height40 = 40 / app_design_height;
 final double height47 = 47 / app_design_height;
