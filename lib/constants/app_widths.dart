@@ -22,9 +22,26 @@ final double width51 = 51 / app_design_width;
 final double width56 = 56 / app_design_width;
 final double width57 = 57 / app_design_width;
 final double width59 = 59 / app_design_width;
+final double width60 = 60 / app_design_width;
+final double width65 = 65 / app_design_width;
+
+final double width68 = 68 / app_design_width;
+final double width70 = 70 / app_design_width;
+final double width75 = 75 / app_design_width;
+final double width80 = 80 / app_design_width;
+
+final double width100 = 100 / app_design_width;
 final double width108 = 108 / app_design_width;
 final double width120 = 120 / app_design_width;
 final double width130 = 130 / app_design_width;
+final double width200 = 200 / app_design_width;
+final double width250 = 250 / app_design_width;
 final double width286 = 286 / app_design_width;
+final double width290 = 290 / app_design_width;
+final double width300 = 300 / app_design_width;
+final double width350 = 350 / app_design_width;
 final double width368 = 368 / app_design_width;
 final double width400 = 400 / app_design_width;
+final double width410 = 410 / app_design_width;
+final double width420 = 420 / app_design_width;
+final double width425 = 425 / app_design_width;
