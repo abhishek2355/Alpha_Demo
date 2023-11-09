@@ -1,5 +1,7 @@
 import 'package:alpha_devayani/result_page.dart';
-import 'package:alpha_devayani/singlePostImage.dart';
+import 'package:alpha_devayani/search_page.dart';
+// import 'package:alpha_devayani/singlePostImage.dart';
+
 import 'package:flutter/material.dart';
 
 import 'notification.dart';
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: SinglePostImage(),
+      home: SearchPage(),
     );
   }
 }

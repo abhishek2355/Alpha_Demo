@@ -190,7 +190,6 @@ const commentedOnYourPost = " commented on your post";
 const last7Days = "Last 7 Days";
 
 //singlePost Image
-
 const like = "Like";
 const comment = "Comment";
 const repost = "Repost";
@@ -202,6 +201,18 @@ const heyNicePicture = "Hey, Nice picture";
 const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
+
+//Search and Recent search Page
+const whatAreYouLookingFor = "What are you looking for ?";
+const motivational = "Motivational";
+const comedy = "Comedy";
+const fitness = "Fitness";
+const fashion = "fashion";
+const workout = "Workout";
+const travelling = "Travelling";
+const game = "Game";
+const recent = "Recent";
+const seeAll = "See all";
 
 // Backend api request urls
 
