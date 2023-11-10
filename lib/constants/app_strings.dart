@@ -213,6 +213,8 @@ const travelling = "Travelling";
 const game = "Game";
 const recent = "Recent";
 const seeAll = "See all";
+const recentSearches = "Recent Searches";
+const clearAll = "Clear all";
 
 // Backend api request urls
 
