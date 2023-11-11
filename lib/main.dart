@@ -1,8 +1,5 @@
-import 'package:alpha_devayani/result_page.dart';
 import 'package:alpha_devayani/singlePostImage.dart';
 import 'package:flutter/material.dart';
-
-import 'notification.dart';
 
 void main() {
   runApp(const MyApp());

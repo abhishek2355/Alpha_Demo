@@ -10,9 +10,7 @@ class IconPlusText extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     var deviceMedia = MediaQuery.of(context);
-    final double screenHeight = deviceMedia.size.height -
-        deviceMedia.padding.top -
-        deviceMedia.padding.bottom;
+    final double screenHeight = deviceMedia.size.height - deviceMedia.padding.top - deviceMedia.padding.bottom;
 
     return Column(
       children: [
