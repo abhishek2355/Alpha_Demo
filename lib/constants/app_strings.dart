@@ -251,6 +251,13 @@ const messagesAndActiveStatus = "Messages & Active Status";
 const manageActiveStatus = "Manage Active Status";
 const manageMessages = "Manage Messages";
 
+//username3
+const changeusername = "Change Username";
+const andrew50 = "Andrew50";
+const youCanOnlyChangeYourUsernameOnesEverymonth =
+    "You can only change your username onces every month";
+const save = "Save";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
