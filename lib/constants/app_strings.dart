@@ -216,6 +216,21 @@ const seeAll = "See all";
 const recentSearches = "Recent Searches";
 const clearAll = "Clear all";
 
+//setting1
+const setting1 = "Settings";
+const upgradeMembershipNow = "Upgrade Membership Now!";
+const enjoyAllTheBenefitsAndExploreMorePossibilities =
+    "Enjoy all the benefits and explore more possibilities.";
+const discoveryPerferences = "Discovery Perferences";
+const profileAndPrivacy = "Profile & Privacy";
+const accountandSecurity = "Account & Security";
+const subscription = "Subscription";
+const appAppearance = "App Apperance";
+const thirdPartyIntergration = "Third Party Intergrations";
+const dataAndAnalytics = "Data & Analytics";
+const helpAndSupport = "Help & Support";
+const logout = "Logout";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';

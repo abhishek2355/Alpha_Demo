@@ -1,4 +1,5 @@
 import 'package:alpha_devayani/recent_Serach_page.dart';
+import 'package:alpha_devayani/settings_1.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:alpha_devayani/result_page.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: RecentSearchPage(),
+      home: Setting1(),
     );
   }
 }
