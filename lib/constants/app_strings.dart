@@ -203,6 +203,26 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
+//profile2
+const yourPublicProfile = "Your Public Profile";
+const viewWebProfile = "View Web Profile";
+const shareMyProfile = "Share My Profile";
+const privacyAndVisibility = "Privacy & Visibility";
+const visibility = "Visibility";
+const chooseWhoCanSeeYourProfile = "Choose who can see your profile";
+const privacyMode = "Privacy Mode";
+const unableOrDisablePrivateModeforincognitobrowsing =
+    "Enable or disable private mode for incognito browsing";
+const profileVerification = "Profile Verification";
+const verifyYourProfileToGainMoreTrust =
+    "Verify your profile to gain more trust";
+const blockedUsers = "Blocked Users (24)";
+const thePeopleYouBlockedAreDisplayedHere =
+    "The people you blocked are disployed here";
+const messagesAndActiveStatus = "Messages & Active Status";
+const manageActiveStatus = "Manage Active Status";
+const manageMessages = "Manage Messages";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
