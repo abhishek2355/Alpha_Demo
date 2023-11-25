@@ -203,6 +203,13 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
+//username3
+const changeusername = "Change Username";
+const andrew50 = "Andrew50";
+const youCanOnlyChangeYourUsernameOnesEverymonth =
+    "You can only change your username onces every month";
+const save = "Save";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
