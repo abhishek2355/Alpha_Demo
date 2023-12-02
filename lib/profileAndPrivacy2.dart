@@ -1,3 +1,4 @@
+import 'package:alpha_devayani/SeperateProfile.dart';
 import 'package:flutter/material.dart';
 import 'package:settings_ui/settings_ui.dart';
 import 'package:alpha_devayani/constants/app_heights.dart' as app_heights;
@@ -44,194 +45,48 @@ class _Profile2State extends State<Profile2> {
               ],
             ),
             Flexible(
-              child: SettingsList(
-                sections: [
-                  SettingsSection(
-                    title: Text(
-                      app_strings.yourPublicProfile,
-                      style: TextStyle(
-                          fontSize: screenHeight * app_heights.height20,
-                          color: Colors.grey),
+              child: Padding(
+                padding: EdgeInsets.symmetric(
+                    horizontal: screenWidth * app_widths.width10,
+                    vertical: screenHeight * app_heights.height10),
+                child: ListView(
+                  children: [
+                    Text(app_strings.yourPublicProfile),
+                    SeperateSettings(name: app_strings.username),
+                    SeperateSettings(name: app_strings.viewWebProfile),
+                    SeperateSettings(name: app_strings.shareMyProfile),
+                    Text(app_strings.privacyAndVisibility),
+                    SeperateSettings(name: app_strings.visibility),
+                    ListTile(
+                      title: Text(
+                        app_strings.privacyMode,
+                        style: TextStyle(
+                          fontSize: screenHeight * app_heights.height25,
+                        ),
+                      ),
+                      subtitle: Text(
+                        app_strings
+                            .unableOrDisablePrivateModeforincognitobrowsing,
+                        style: TextStyle(
+                            fontSize: screenHeight * app_heights.height20,
+                            color: Colors.grey),
+                      ),
+                      trailing: Switch(
+                        onChanged: (value) {
+                          setState(() {
+                            isSelected = !isSelected;
+                          });
+                        },
+                        value: isSelected,
+                      ),
                     ),
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.username,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.viewWebProfile,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.shareMyProfile,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  //
-                  SettingsSection(
-                    title: Text(
-                      app_strings.privacyAndVisibility,
-                      style: TextStyle(
-                          fontSize: screenHeight * app_heights.height20,
-                          color: Colors.grey),
-                    ),
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.visibility,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        value: Text(
-                          app_strings.chooseWhoCanSeeYourProfile,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20,
-                              color: Colors.grey),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                          title: Text(
-                            app_strings.privacyMode,
-                            style: TextStyle(
-                              fontSize: screenHeight * app_heights.height25,
-                            ),
-                          ),
-                          value: Text(
-                            app_strings
-                                .unableOrDisablePrivateModeforincognitobrowsing,
-                            style: TextStyle(
-                                fontSize: screenHeight * app_heights.height20,
-                                color: Colors.grey),
-                          ),
-                          trailing: Switch(
-                            onChanged: (value) {
-                              setState(() {
-                                isSelected = !isSelected;
-                              });
-                            },
-                            value: isSelected,
-                          )),
-                    ],
-                  ),
-
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.profileVerification,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        value: Text(
-                          app_strings.verifyYourProfileToGainMoreTrust,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20,
-                              color: Colors.grey),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.blockedUsers,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        value: Text(
-                          app_strings.thePeopleYouBlockedAreDisplayedHere,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20,
-                              color: Colors.grey),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  SettingsSection(
-                    title: Text(
-                      app_strings.messagesAndActiveStatus,
-                      style: TextStyle(
-                          fontSize: screenHeight * app_heights.height20,
-                          color: Colors.grey),
-                    ),
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.manageActiveStatus,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        title: Text(
-                          app_strings.manageMessages,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height25,
-                          ),
-                        ),
-                        trailing: Icon(Icons.arrow_forward_ios_sharp,
-                            size: screenHeight * app_heights.height25),
-                        onPressed: (context) {},
-                      ),
-                    ],
-                  ),
-                ],
+                    SeperateSettings(name: app_strings.profileVerification),
+                    SeperateSettings(name: app_strings.blockedUsers),
+                    Text(app_strings.messagesAndActiveStatus),
+                    SeperateSettings(name: app_strings.manageActiveStatus),
+                    SeperateSettings(name: app_strings.username),
+                  ], //
+                ),
               ),
             ),
           ],
