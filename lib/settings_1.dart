@@ -1,3 +1,4 @@
+import 'package:alpha_devayani/seperateWidegetSetting.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:alpha_devayani/constants/app_heights.dart' as app_heights;
@@ -69,209 +70,59 @@ class Setting1 extends StatelessWidget {
               ),
             ),
             Flexible(
-              child: SettingsList(
-                sections: [
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.build_circle_rounded,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.discoveryPerferences,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+              child: ListView(
+                children: [
+                  SeperateSettings(
+                    iconName: Icons.build_circle_rounded,
+                    name: app_strings.discoveryPerferences,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.person,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.profileAndPrivacy,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.person,
+                    name: app_strings.profileAndPrivacy,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.notifications,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.notification,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.notifications_on_sharp,
+                    name: app_strings.notification,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.security_outlined,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.accountandSecurity,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.security,
+                    name: app_strings.accountandSecurity,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.subscriptions_outlined,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.subscription,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.star,
+                    name: app_strings.subscription,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.remove_red_eye_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.appAppearance,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.remove_red_eye_outlined,
+                    name: app_strings.appAppearance,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.compare_arrows_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.thirdPartyIntergration,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.compare_arrows_outlined,
+                    name: app_strings.thirdPartyIntergration,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.analytics_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.dataAndAnalytics,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.analytics_outlined,
+                    name: app_strings.dataAndAnalytics,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.support,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.helpAndSupport,
-                          style: TextStyle(
-                              fontSize: screenHeight * app_heights.height20),
-                        ),
-                        trailing: Icon(
-                          Icons.arrow_forward_ios_sharp,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  SeperateSettings(
+                    iconName: Icons.help_center_outlined,
+                    name: app_strings.helpAndSupport,
                   ),
-                  SettingsSection(
-                    tiles: <SettingsTile>[
-                      SettingsTile.navigation(
-                        leading: Icon(
-                          Icons.logout_rounded,
-                          size: screenHeight * app_heights.height30,
-                        ),
-                        title: Text(
-                          app_strings.logout,
-                          style: TextStyle(
-                            fontSize: screenHeight * app_heights.height20,
-                            color: Colors.red,
-                          ),
-                        ),
-                        onPressed: (context) {},
-                      ),
-                    ],
+                  ListTile(
+                    leading: Icon(
+                      Icons.logout_rounded,
+                      size: screenHeight * app_heights.height30,
+                    ),
+                    title: Text(
+                      app_strings.logout,
+                      style: TextStyle(
+                          color: Colors.red,
+                          fontSize: screenHeight * app_heights.height20),
+                    ),
                   ),
                 ],
               ),
-            ),
+            )
           ],
         ),
       ),
