@@ -212,7 +212,12 @@ const save = "Save";
 
 //manageActiveStatus
 const manageActiveStatus = "Manage Active Status";
-
+const showActiveStatus = "Show Active Status";
+const ifYouActiveOnDatify =
+    "If you active on , your Alpha status will be displayed to other people";
+const showrRcentlyActiveStatus = "Show Recently Active Status";
+const recentlyActiveStausWillBe =
+    "Recently active status will be displayed if you have been active on Alpha in the last 24 hours";
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';

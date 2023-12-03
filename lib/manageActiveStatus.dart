@@ -14,6 +14,7 @@ class ManageAS extends StatefulWidget {
 
 class _ManageASState extends State<ManageAS> {
   bool isSwitched = false;
+  bool inSwitched = false;
 
   @override
   Widget build(BuildContext context) {
@@ -34,14 +35,45 @@ class _ManageASState extends State<ManageAS> {
                   vertical: screenHeight * app_heights.height10),
               child: HeadingRow(name: app_strings.manageActiveStatus),
             ),
+            SizedBox(
+              height: screenHeight * app_heights.height20,
+            ),
             ListTile(
-              title: Text("show activwe status"),
-              subtitle: Text("If you active"),
+              title: Text(
+                app_strings.showActiveStatus,
+                style: TextStyle(fontSize: screenHeight * app_heights.height22),
+              ),
+              subtitle: Text(
+                app_strings.ifYouActiveOnDatify,
+                style: TextStyle(fontSize: screenHeight * app_heights.height18),
+              ),
               trailing: Switch(
                 value: isSwitched,
                 onChanged: (value) {
                   setState(() {
                     isSwitched = value;
+                  });
+                },
+              ),
+              onTap: () {},
+            ),
+            SizedBox(
+              height: screenHeight * app_heights.height20,
+            ),
+            ListTile(
+              title: Text(
+                app_strings.showrRcentlyActiveStatus,
+                style: TextStyle(fontSize: screenHeight * app_heights.height22),
+              ),
+              subtitle: Text(
+                app_strings.recentlyActiveStausWillBe,
+                style: TextStyle(fontSize: screenHeight * app_heights.height18),
+              ),
+              trailing: Switch(
+                value: inSwitched,
+                onChanged: (value) {
+                  setState(() {
+                    inSwitched = value;
                   });
                 },
               ),
@@ -53,18 +85,3 @@ class _ManageASState extends State<ManageAS> {
     );
   }
 }
-
-// class Profile2 extends StatefulWidget {
-//   const Profile2({super.key});
-//
-//   @override
-//   State<Profile2> createState() => _Profile2State();
-// }
-//
-// class _Profile2State extends State<Profile2> {
-//   //For switching
-//   bool isSelected = false;
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     var deviceMedia = MediaQuery.of(context);tends StatefulWidget
