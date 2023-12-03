@@ -203,7 +203,6 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
-//setting1
 const setting1 = "Settings";
 const upgradeMembershipNow = "Upgrade Membership Now!";
 const enjoyAllTheBenefitsAndExploreMorePossibilities =
