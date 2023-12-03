@@ -203,7 +203,6 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
-//setting1
 const setting1 = "Settings";
 const upgradeMembershipNow = "Upgrade Membership Now!";
 const enjoyAllTheBenefitsAndExploreMorePossibilities =
@@ -217,6 +216,7 @@ const thirdPartyIntergration = "Third Party Intergrations";
 const dataAndAnalytics = "Data & Analytics";
 const helpAndSupport = "Help & Support";
 const logout = "Logout";
+
 
 // Backend api request urls
 
