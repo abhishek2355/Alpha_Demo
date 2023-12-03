@@ -21,16 +21,15 @@ class HeadingRow extends StatelessWidget {
 
     return Row(
       children: [
-        Icon(
-          Icons.arrow_back_rounded,
-          size: screenHeight * app_heights.height30,
-        ),
+        IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
         SizedBox(
-          width: screenWidth * app_widths.width60,
+          width: screenWidth * app_widths.width130,
         ),
         Text(
           name,
-          style: TextStyle(fontSize: screenHeight * app_heights.height20),
+          style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: screenHeight * app_heights.height25),
         ),
       ],
     );
