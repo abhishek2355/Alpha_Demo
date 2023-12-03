@@ -210,6 +210,9 @@ const youCanOnlyChangeYourUsernameOnesEverymonth =
     "You can only change your username onces every month";
 const save = "Save";
 
+//manageActiveStatus
+const manageActiveStatus = "Manage Active Status";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';

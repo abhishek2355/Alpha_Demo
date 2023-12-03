@@ -30,7 +30,9 @@ class HeadingRow extends StatelessWidget {
         ),
         Text(
           name,
-          style: TextStyle(fontSize: screenHeight * app_heights.height20),
+          style: TextStyle(
+              fontSize: screenHeight * app_heights.height20,
+              fontWeight: FontWeight.bold),
         ),
       ],
     );
