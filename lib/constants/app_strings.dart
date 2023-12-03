@@ -203,12 +203,20 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
-//username3
-const changeusername = "Change Username";
-const andrew50 = "Andrew50";
-const youCanOnlyChangeYourUsernameOnesEverymonth =
-    "You can only change your username onces every month";
-const save = "Save";
+const setting1 = "Settings";
+const upgradeMembershipNow = "Upgrade Membership Now!";
+const enjoyAllTheBenefitsAndExploreMorePossibilities =
+    "Enjoy all the benefits and explore more possibilities.";
+const discoveryPerferences = "Discovery Perferences";
+const profileAndPrivacy = "Profile & Privacy";
+const accountandSecurity = "Account & Security";
+const subscription = "Subscription";
+const appAppearance = "App Apperance";
+const thirdPartyIntergration = "Third Party Intergrations";
+const dataAndAnalytics = "Data & Analytics";
+const helpAndSupport = "Help & Support";
+const logout = "Logout";
+
 
 // Backend api request urls
 
