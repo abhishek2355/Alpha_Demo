@@ -218,6 +218,16 @@ const ifYouActiveOnDatify =
 const showrRcentlyActiveStatus = "Show Recently Active Status";
 const recentlyActiveStausWillBe =
     "Recently active status will be displayed if you have been active on Alpha in the last 24 hours";
+
+//ManageeMessages
+const manageMessages = "Manage Messages";
+const receiveDirectMessages = "Receive Direct Messages";
+const ifThisIsTurnedOff =
+    "If this is turned off. your matches will have to send a connection request to you in order to connect in the message.";
+const readReceipts = "Read Receipts";
+const ifthisTurnedOff =
+    "If turend off. you won't send or recieve read receipts";
+
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
