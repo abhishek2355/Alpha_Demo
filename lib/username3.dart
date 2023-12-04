@@ -42,7 +42,7 @@ class Username3 extends StatelessWidget {
                   horizontal: screenWidth * app_widths.width10,
                   vertical: screenHeight * app_heights.height10),
               child: Text(
-                app_strings.changeusername,
+                "app_strings.changeusername",
                 style: TextStyle(fontSize: screenHeight * app_heights.height20),
               ),
             ),
@@ -64,7 +64,7 @@ class Username3 extends StatelessWidget {
                   horizontal: screenWidth * app_widths.width10,
                   vertical: screenHeight * app_heights.height10),
               child: Text(
-                app_strings.youCanOnlyChangeYourUsernameOnesEverymonth,
+                "app_strings.youCanOnlyChangeYourUsernameOnesEverymont",
                 style: TextStyle(
                     color: Colors.grey,
                     fontSize: screenHeight * app_heights.height25),
@@ -78,7 +78,7 @@ class Username3 extends StatelessWidget {
                 width: 200,
                 child: ElevatedButton(
                   onPressed: () {},
-                  child: Text(app_strings.save),
+                  child: Text("save"),
                 ),
               ),
             ),

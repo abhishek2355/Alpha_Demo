@@ -1,4 +1,6 @@
-import 'package:alpha_devayani/username3.dart';
+import 'package:alpha_devayani/dataAnalytics.dart';
+import 'package:alpha_devayani/profileAndPrivacy2.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const MaterialApp(
-      home: Username3(),
+      home: DataAnalytics(),
     );
   }
 }

@@ -203,13 +203,51 @@ const likeReply = "Like | Reply";
 const user2 = "User 2";
 const hlloThankYou = "Hllo Thank you";
 
-//username3
-const changeusername = "Change Username";
-const andrew50 = "Andrew50";
-const youCanOnlyChangeYourUsernameOnesEverymonth =
-    "You can only change your username onces every month";
-const save = "Save";
+const setting1 = "Settings";
+const upgradeMembershipNow = "Upgrade Membership Now!";
+const enjoyAllTheBenefitsAndExploreMorePossibilities =
+    "Enjoy all the benefits and explore more possibilities.";
+const discoveryPerferences = "Discovery Perferences";
+const profileAndPrivacy = "Profile & Privacy";
+const accountandSecurity = "Account & Security";
+const subscription = "Subscription";
+const appAppearance = "App Apperance";
+const thirdPartyIntergration = "Third Party Intergrations";
+const dataAndAnalytics = "Data & Analytics";
+const helpAndSupport = "Help & Support";
+const logout = "Logout";
 
+//profile2
+const yourPublicProfile = "Your Public Profile";
+const viewWebProfile = "View Web Profile";
+const shareMyProfile = "Share My Profile";
+const privacyAndVisibility = "Privacy & Visibility";
+const visibility = "Visibility";
+const chooseWhoCanSeeYourProfile = "Choose who can see your profile";
+const privacyMode = "Privacy Mode";
+const unableOrDisablePrivateModeforincognitobrowsing =
+    "Enable or disable private mode for incognito browsing";
+const profileVerification = "Profile Verification";
+const verifyYourProfileToGainMoreTrust =
+    "Verify your profile to gain more trust";
+const blockedUsers = "Blocked Users (24)";
+const thePeopleYouBlockedAreDisplayedHere =
+    "The people you blocked are disployed here";
+const messagesAndActiveStatus = "Messages & Active Status";
+const manageActiveStatus = "Manage Active Status";
+const manageMessages = "Manage Messages";
+
+//Data Analytics
+const dataAnalytics = "Data Analytics";
+const dataUsage = "Data Usage";
+const controlHowYourdata =
+    "control how your data is used for analytics. Customize your preferences";
+const adPreferences = "Ad Preferences";
+const manageAdPersonalization =
+    "Manage ad personalization settings. Tailor your ad experience.";
+const downloadMyData = "Download My Data";
+const requestACopyOfYour =
+    "Request a copy of your data, Your information, Your control.";
 // Backend api request urls
 
 const rootUrl = 'https://alpha-main.onrender.com/';
